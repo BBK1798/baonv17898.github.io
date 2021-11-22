@@ -1,0 +1,360 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.overlay-nav{
+    position:fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.nav-list2{
+    float: right;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.nav-header{
+    width: 100%;
+    padding: 0 3%;
+    height: 50px; 
+    position: relative;
+    
+}
+
+.nav-header li{
+    display: inline-block;
+    margin-right: 20px;   
+}
+.nav-header ul{
+    display: inline-block;
+}
+.nav-header li a{
+    text-decoration: none;
+    line-height: 50px;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.nav-mobile{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 400px;
+    max-width: 100%;
+    background-color: rosybrown;
+
+}
+.nav-mobile-list{
+    margin-top: 20px;
+}
+.nav-close{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    color: seagreen;
+    top: 5px;
+    right: 5px;
+}
+.nav-mobile-list-link {
+    text-decoration: none;
+    color:teal;
+    display: block;
+    padding:  8px 0;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner .banner-img {
+    width: 100%;
+    height: auto;
+}
+.banner-img img{
+    width: 100%;
+    height: auto;
+}
+.banner-content{
+    position: absolute;
+    left:15%;
+    top:28%;
+    width:100%;
+    height: auto;
+    color: #fff;
+    
+}
+.banner-content h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+.content {
+    width: 100%;
+    height: auto;
+    background-color: rgb(239,239,239);
+    padding: 2% 4%;
+    margin-top: -4px;
+
+}
+.content p{
+    margin-bottom: 15px;
+}
+.content-banner{
+    width: 100%;
+    height: auto;
+}
+.content-banner div{
+    display: inline-block;
+    width: 31%;
+    height: auto;
+}
+.content-banner div img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.anh-ctbn1{
+    margin-bottom: 9.5%;
+}
+.content-banner-ts2, .content-banner-ts1{
+    margin-right: 1.1%;
+}
+.footer{
+    height: auto;
+    background-color: rgb(247,247,247);
+    padding: 2% 4%;
+}
+.footer div {
+    display: inline-block;
+    width: 31%;
+    margin: 15px 0;
+    padding-right: 5%;
+}
+.footer-section h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+.footer-section .mg15{
+    margin-bottom: 15px;
+}
+.footer-section p{
+    font-size: 13px;
+}
+.nav-bt-mb {
+    display: none;float: left;
+}
+.footer-section a{
+    text-decoration: none;
+    color: rgb(64, 182, 221);
+    font-size: 13px;
+}
+/* For mobile */
+@media only screen and (max-width:768px){
+    body{
+        width: 100%;
+    }
+    .nav-header li a{
+        font-size: 10px;
+        color: #fff;
+        display: none;
+
+    }
+    .nav-bt-mb {
+         display: block;
+        margin-left: 13px;
+    }
+    
+    .nav-header{
+        background-color: rgb(85,92,112);
+        height: 60px;
+        margin: 0;
+        padding: 0;;
+    }
+    .nav-list1{
+        width: 40%;
+        text-align: center;
+        display:block;
+    }
+    .nav-list1 li {
+        width: 40%;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-list2 li{
+        width: 30%;
+        margin: 0 0 0 0.5%;
+
+    }
+    .nav-list2{
+        width: 60%;
+        float: right;
+        display:block;
+
+    }
+    .banner-img img {
+        display: none;
+    }
+    .banner-content{
+        border-bottom: solid 1px #000;
+        padding-bottom: 30px;
+        
+    }
+    .content-title{
+        margin: 0 4% 5%;
+        width: 100%;
+        height: auto;
+    }
+    .banner-content{
+        left:0;
+        top:0;
+        position:static;
+        color: black;
+        margin: 50px 4%;   
+        font-size: 14px;   
+    }
+    .banner-content h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 300%;
+        margin-bottom: 35px;
+    }
+    .content{
+        background-color: #fff;       
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+    .content-banner {
+        width: 92%;
+        margin: auto;
+    }
+    .footer{
+        background-color: #fff;
+    }
+    .footer .footer-section {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    .content-banner div {
+        width: 100%;
+        margin: 0 0  9.5% 0; 
+        padding: 0;
+    }
+    .footer a{
+        text-decoration: underline;
+        color: #000;
+    }
+    .footer h3 {
+        font-size: 33px;
+    }
+   
+    h2{
+        font-size: 40px;
+        width: 100%;
+        font-weight: 800;
+        height: auto;
+        display: block;
+        padding-right: 50%;
+    }
+    p{
+        color: rgba(0,0,0,0.5);
+        font-size: 11px;
+    }
+}
+.nav-bt-mb {
+    width: 30px;
+    height: 30px;
+    color: yellow;
+}
+
+/* For tablet */
+@media only screen and (min-width: 768px) and (max-width:992px){
+    body{
+        width: 100%;
+    }
+    .nav-header{
+        background-color: rgb(85,92,112);
+    }
+    .nav-list1{
+        margin-left: 1% ;
+    }
+
+    .nav-header li a{
+        font-size: 15px;
+        color: #fff;
+    }
+    .nav-list2{
+        float: right;
+    }
+    .banner-img img {
+        display: none;
+    }
+    .banner-content{
+        border-bottom: solid 1px #000;
+        padding-bottom: 30px;
+    }
+    .banner-content{
+        left:0;
+        top:0;
+        position:relative;
+        color: black;
+        margin: 50px 4%;   
+        font-size: 14px;   
+    }
+    .banner-content h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 26px;
+        margin-bottom: 35px;
+    }
+    .content{
+        background-color: #fff;       
+        padding: 0;
+    }
+    .content-banner div {
+        width: 44%;
+    }
+    .content-title{
+        margin: 0 4% 5%;
+    }
+    .content-title h2 {
+        margin-bottom: 20px;
+    }
+    .content-banner-ts2{
+        float: right;
+        margin-right: 4%;
+    }
+    .content-banner div .anh-ctbn1{
+        margin-bottom: 50px;
+    }
+    .content-banner-ts3, .content-banner-ts1{
+        margin-left: 4%;
+    }
+    .content-banner-ts3{
+        margin-bottom: 45px;
+    }
+    .content-banner-ts1, .content-banner-ts2 {
+        margin-bottom:50px ;
+    }
+    .footer{
+        background-color: #fff;
+    }
+    .footer .footer-section {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    p{
+        color: rgba(0,0,0,0.5);
+        word-spacing:1px;
+        letter-spacing:1px;
+        
+    }
+    .footer a{
+        text-decoration: underline;
+    }
+}
